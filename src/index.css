@@ -1,22 +1,13 @@
 .brand img {
     width: 100%;
     height: auto;
-}
+    }
 
-.brand {
-    border: solid black 2px;
-}
+
 
 @media only screen and (max-width: 600px) {
     .brand {
-        width: 60%;
+        max-width: 60%;
         
     }
   }
-/*
-  @media only screen and (max-width: 990px) {
-    .brand {
-        width: 75%;
-       
-    }
-  }*/
