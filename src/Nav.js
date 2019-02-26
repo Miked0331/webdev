@@ -42,7 +42,7 @@ export default class Example extends React.Component {
               </NavItem>
               <NavItem>
 
-                <NavLink href="/components/">Contact</NavLink>
+                <NavLink href="https://www.google.com">Contact</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

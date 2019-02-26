@@ -1,9 +1,11 @@
+/*Nav/heading grid */
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fff;
 }
 
+/* "learn the basics" text */
 .main-text {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -12,12 +14,48 @@
     background-color: #f8f9fa;
 }
 
+/*mobile text size*/
 @media only screen and (max-width: 600px) {
     .main-text {
-      font-size: 1em;
+      font-size: 1.4em;
     }
   }
 
+  /* tablet text size */
+  @media only screen and (max-width: 770px) {
+    .main-text {
+      font-size: 2.4em;
+    }
+  }
+
+  .main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* html image div*/
+  .imgs {
+    grid-column-start: 1fr;
+    grid-column-end: 2fr;
+  }
+
+  /*html image*/
+img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 770px) {
+  .main-body {
+    display: block;
+  }
+}
+
+.body-text {
+  grid-column-start: 2fr;
+  grid-column-end: 3fr;
+}
+  
+  
 .hr 
     {
         grid-column-start: 1;
