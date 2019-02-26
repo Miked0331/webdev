@@ -10,13 +10,13 @@
 @media only screen and (max-width: 600px) {
     .brand {
         width: 60%;
-        height: auto;
+        
     }
   }
-
+/*
   @media only screen and (max-width: 990px) {
-    .brand img {
+    .brand {
         width: 75%;
-        height: auto;
+       
     }
-  }
+  }*/
