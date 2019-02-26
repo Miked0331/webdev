@@ -41,7 +41,7 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
-    margin: 0 20px 0 20px;
+    margin: 0 10% 1% 10%;
   }
 
   /* html image div*/
@@ -58,6 +58,14 @@ img {
 @media only screen and (max-width: 770px) {
   .main-body {
     display: block;
+    margin: 0 4px 0 4px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-body {
+    
+    margin: 0 4px 0 4px;
   }
 }
 
@@ -77,5 +85,9 @@ img {
         margin-bottom: 5px;
     }
 
-
+.footer {
+  text-align: center;
+  background-color: #f8f9fa;
+  height: 10vh;
+}
 

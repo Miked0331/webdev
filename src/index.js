@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Nav from './Nav';
+import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import * as serviceWorker from './serviceWorker';
@@ -11,6 +12,7 @@ ReactDOM.render(
     <div>
         <Nav />
         <App />
+        <Footer />
     </div>
     , document.getElementById('root'));
 

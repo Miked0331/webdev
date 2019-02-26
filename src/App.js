@@ -6,7 +6,7 @@ import CSS from './Image/CSS.jpg'
 class App extends Component {
   render() {
     return (
-<div>
+<div classname="whole-body">
       <div className="wrapper">
         <div className="main-text"> Learn the web development essentials</div>
         <div className="hr">  
@@ -19,7 +19,7 @@ class App extends Component {
       <img src={Html} alt="html image"></img>
       </div>
 
-      <div classname="body-text" > <a href ="https://www.w3schools.com/html/html_intro.asp">Click here</a> Habitasse ante nostra, elementum dignissim fermentum varius vulputate facilisis molestie per nascetur fames. Leo eleifend mauris senectus rutrum nisi molestie. Penatibus nunc tincidunt arcu sagittis conubia. Tempus porttitor phasellus dignissim lobortis non faucibus nisi lobortis nascetur ac parturient. Lobortis cum?
+      <div classname="body-text" > <a href ="https://www.w3schools.com/html/html_intro.asp">Click here</a> <b>HTML</b>Habitasse ante nostra, elementum dignissim fermentum varius vulputate facilisis molestie per nascetur fames. Leo eleifend mauris senectus rutrum nisi molestie. Penatibus nunc tincidunt arcu sagittis conubia. Tempus porttitor phasellus dignissim lobortis non faucibus nisi lobortis nascetur ac parturient. Lobortis cum?
       </div>
 
       <div classname="img-2">
@@ -30,6 +30,10 @@ class App extends Component {
       </div>
       
       </div>
+
+      <div className="hr">  
+        </div>
+
 </div>
 
     );
