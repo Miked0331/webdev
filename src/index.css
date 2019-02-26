@@ -3,9 +3,13 @@
     height: auto;
 }
 
+.brand {
+    border: solid black 2px;
+}
+
 @media only screen and (max-width: 600px) {
-    .brand img {
-        max-width: 35%;
+    .brand {
+        width: 60%;
         height: auto;
     }
   }
