@@ -40,6 +40,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 0 20px 0 20px;
   }
 
   /* html image div*/
