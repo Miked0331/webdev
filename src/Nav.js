@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from './Image/icon.png'
+import Icon2 from './Image/icon2.png'
 import './index.css';
 import {
   Collapse,
@@ -33,15 +33,16 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand className="brand" href="/" ><img src={Icon} alt="Flowers in Chania"></img></NavbarBrand>
+          <NavbarBrand className="brand" ><img src={Icon2} alt="Flowers in Chania"></img></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="https://github.com/Miked0331">GitHub</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+
+                <NavLink href="/components/">Contact</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
