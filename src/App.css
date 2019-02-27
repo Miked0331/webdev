@@ -85,9 +85,16 @@ img {
         margin-bottom: 5px;
     }
 
-.footer {
-  text-align: center;
+.main-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
   background-color: #f8f9fa;
   height: 10vh;
+}
+
+.footer-icon {
+  width: 3rem;
+  height: 3rem;
 }
 

@@ -26,7 +26,7 @@ class App extends Component {
       <img src={CSS} alt="html image"></img>
       </div>
 
-      <div classname="body-text" > <a href ="https://www.w3schools.com/html/html_intro.asp">Click here</a> Habitasse ante nostra, elementum dignissim fermentum varius vulputate facilisis molestie per nascetur fames. Leo eleifend mauris senectus rutrum nisi molestie. Penatibus nunc tincidunt arcu sagittis conubia. Tempus porttitor phasellus dignissim lobortis non faucibus nisi lobortis nascetur ac parturient. Lobortis cum?
+      <div classname="body-text" > <a href ="https://www.w3schools.com/html/html_intro.asp" target="_blank" title="w3schools">Click here</a> Habitasse ante nostra, elementum dignissim fermentum varius vulputate facilisis molestie per nascetur fames. Leo eleifend mauris senectus rutrum nisi molestie. Penatibus nunc tincidunt arcu sagittis conubia. Tempus porttitor phasellus dignissim lobortis non faucibus nisi lobortis nascetur ac parturient. Lobortis cum?
       </div>
       
       </div>
