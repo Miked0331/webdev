@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "a76ed0d6b7c30859a4de82d5f9ee4ebc",
+    "url": "/webdev/static/media/linkedin.a76ed0d6.png"
+  },
+  {
     "revision": "1dbffc781ccd01e2605c272b9cfe6218",
     "url": "/webdev/static/media/icon2.1dbffc78.png"
   },
@@ -16,23 +20,23 @@ self.__precacheManifest = [
     "url": "/webdev/static/js/runtime~main.7849ddbe.js"
   },
   {
-    "revision": "01a0060873f53cf7fe81",
-    "url": "/webdev/static/js/main.01a00608.chunk.js"
+    "revision": "4a24d137e333fc996518",
+    "url": "/webdev/static/js/main.4a24d137.chunk.js"
   },
   {
-    "revision": "bebf98b94bb7cad6a89f",
-    "url": "/webdev/static/js/2.bebf98b9.chunk.js"
+    "revision": "f172cf8a31e5a34dfdb8",
+    "url": "/webdev/static/js/2.f172cf8a.chunk.js"
   },
   {
-    "revision": "01a0060873f53cf7fe81",
-    "url": "/webdev/static/css/main.03f22c03.chunk.css"
+    "revision": "4a24d137e333fc996518",
+    "url": "/webdev/static/css/main.bdcd28fc.chunk.css"
   },
   {
-    "revision": "bebf98b94bb7cad6a89f",
+    "revision": "f172cf8a31e5a34dfdb8",
     "url": "/webdev/static/css/2.cfef79e3.chunk.css"
   },
   {
-    "revision": "81cd01a5b37f3bec9df48001ff41212d",
+    "revision": "2adc13dc257711954fa3f488999f64cc",
     "url": "/webdev/index.html"
   }
 ];
