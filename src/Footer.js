@@ -10,14 +10,14 @@ class Footer extends Component {
 
 <div className="footer-div">
 <a href="https://github.com/Miked0331" target="_blank" title="GitHub">
-<img className="footer-icon" src={GitHub} alt="Flowers in Chania"></img></a>
+<img className="footer-icon" src={GitHub} alt="GitHub"></img></a>
 </div>
 
 <div className="footer-div">Contact me @ mikedragun@gmail.com </div>
 
 <div className="footer-div">
-<a href="https://github.com/Miked0331" target="_blank" title="LinkedIn">
-<img className="footer-icon" src={Linkedin} alt="Flowers in Chania"></img></a>
+<a href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank" title="LinkedIn">
+<img className="footer-icon" src={Linkedin} alt="LinkedIn"></img></a>
 </div>
 
 </div>
