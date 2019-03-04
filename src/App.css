@@ -87,14 +87,22 @@ img {
 
 .main-footer {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   background-color: #f8f9fa;
   height: 10vh;
+  border: solid;
 }
-
+.footer-text{
+  border: solid;
+}
 .footer-icon {
   width: 3rem;
   height: 3rem;
+  border: solid;
+}
+
+.footer-div {
+  border: solid;
 }
 
