@@ -32,7 +32,7 @@
 /* If the screen size is 600px wide or less, set the font-size of <div> to 1.5em */
 @media screen and (max-width: 600px) {
   .main-text {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 }
 
@@ -42,6 +42,18 @@
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     margin: 0 10% 1% 10%;
+  }
+
+  .body-title {
+    text-align: center;
+    grid-column: 1 / span 2;
+    font-size: 1.6em;
+  }
+
+  @media screen and (max-width: 600px) {
+    .body-title {
+      font-size: 1.3em;
+    }
   }
 
   /* html image div*/
