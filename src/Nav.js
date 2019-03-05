@@ -42,13 +42,13 @@ export default class Example extends React.Component {
               </NavItem>
               <NavItem>
 
-                <NavLink href="https://www.google.com">Contact</NavLink>
+                <NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/">LinkedIn</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+              {/*<UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Options
                 </DropdownToggle>
-                <DropdownMenu right>
+           <DropdownMenu right>
                   <DropdownItem>
                     Option 1
                   </DropdownItem>
@@ -60,7 +60,7 @@ export default class Example extends React.Component {
                     Reset
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
             </Nav>
           </Collapse>
         </Navbar>
