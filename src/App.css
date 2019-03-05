@@ -22,7 +22,7 @@
     font-size: 2.2em;
   }
 }
-
+ /* If Screen size is less than 770px, do this*/
 @media screen and (min-width: 770px) {
   .main-text {
     font-size: 3em;
@@ -36,20 +36,41 @@
   }
 }
 
+/*setting the body to grid, and creating a 2 column layout*/
   .main-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     margin: 0 10% 1% 10%;
+    font-size: 1.2em;
   }
 
+  /*Display block on mobile devices smaller than 770px and small margins margins*/
+@media only screen and (max-width: 770px) {
+  .main-body {
+    display: block;
+    margin: 0 4px 0 4px;
+    font-size: 1em;
+  }
+}
+
+/*For tablet users, makes smaller margins creates  */
+@media only screen and (max-width: 1024px) {
+  .main-body {    
+    margin: 0 4px 0 4px;
+    font-size: 1.1em;
+  }
+}
+
+  /* Learn web development text at top of page */
   .body-title {
     text-align: center;
     grid-column: 1 / span 2;
     font-size: 1.6em;
   }
 
+  /* change font size from 1.6 to 1.3 em on screens smaller than 600px*/
   @media screen and (max-width: 600px) {
     .body-title {
       font-size: 1.3em;
@@ -67,26 +88,13 @@ img {
   width: 100%;
 }
 
-@media only screen and (max-width: 770px) {
-  .main-body {
-    display: block;
-    margin: 0 4px 0 4px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .main-body {
-    
-    margin: 0 4px 0 4px;
-  }
-}
-
+/*Text is in right column on screen*/
 .body-text {
   grid-column-start: 2fr;
   grid-column-end: 3fr;
 }
   
-  
+/*hr styles for top and bottom of page*/
 .hr {
         grid-column-start: 1;
         grid-column-end: 3;
@@ -96,6 +104,7 @@ img {
         margin-bottom: 5px;
     }
 
+/*Display footer as grid in a 3 column layout, centers content*/
 .main-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -105,12 +114,13 @@ img {
   text-align: center;
 }
 
+/*icon size in footer*/
 .footer-icon {
   width: 3rem;
   height: 3rem;
 }
 
-
+/*Reduce icone size when screen is smaller than 1024px*/
 @media only screen and (max-width: 1024px) {
   .footer-icon {
     width: 2.5rem;
