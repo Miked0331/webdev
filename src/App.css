@@ -81,7 +81,18 @@
   .imgs {
     grid-column-start: 1fr;
     grid-column-end: 2fr;
+    }
+
+  /*Body images */
+.body-img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 600px) {
+  .body-img {
+    box-shadow: none;
   }
+}
 
   /*html image*/
 img {
@@ -119,6 +130,16 @@ img {
   width: 3rem;
   height: 3rem;
 }
+
+/*.footer-icon:hover {
+  background-color: rgb(224, 221, 221) ;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-icon:hover {
+    background-color: 
+  }
+} */
 
 /*Reduce icone size when screen is smaller than 1024px*/
 @media only screen and (max-width: 1024px) {
