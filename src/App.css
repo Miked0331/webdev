@@ -52,6 +52,7 @@
     display: block;
     margin: 0 4px 0 4px;
     font-size: 1em;
+    padding-bottom: 10px;
   }
 }
 
@@ -81,7 +82,19 @@
   .imgs {
     grid-column-start: 1fr;
     grid-column-end: 2fr;
+    }
+
+  /*Body images */
+.body-img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 770px) {
+  .body-img {
+    box-shadow: none;
+    padding-bottom: 10px;
   }
+}
 
   /*html image*/
 img {
@@ -92,6 +105,17 @@ img {
 .body-text {
   grid-column-start: 2fr;
   grid-column-end: 3fr;
+}
+
+@media screen and (max-width: 770px) {
+  .body-text {
+    padding-bottom: 2px;
+  }
+}
+
+.example {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
 }
   
 /*hr styles for top and bottom of page*/
@@ -120,10 +144,31 @@ img {
   height: 3rem;
 }
 
+/*.footer-icon:hover {
+  background-color: rgb(224, 221, 221) ;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-icon:hover {
+    background-color: 
+  }
+} */
+
 /*Reduce icone size when screen is smaller than 1024px*/
 @media only screen and (max-width: 1024px) {
   .footer-icon {
     width: 2.5rem;
   height: 2.5rem;
   }
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
 }
