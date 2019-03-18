@@ -6,7 +6,7 @@ import JavaScript from './Image/javascript.jpg'
 
 class App extends Component {
   showAlert() {
-    alert("Im an alert");
+    alert("This is why we use JavaScript!");
   }
   render() {
     return  (
@@ -48,7 +48,8 @@ class App extends Component {
           </div>
           <div classname="body-text" > <b>J</b>ava<b>S</b>cript is the third essential langauge to learn when studying web development. This is how
           we are able to create functionality within a website. Without JavaScript, components like forms, special animations, and much more would not
-          function without JavaScript. Other items like buttons use JavaScript so they can function. For example,<button onClick={this.showAlert}>This</button> button </div>
+          function without JavaScript. Other items like buttons use JavaScript so they can function. For example <button className="button" onClick={this.showAlert}>This</button> button
+          displays an alert message on the page. For more information about JavaScript visit another section on W3School's website <a href ="https://www.w3schools.com/js/js_intro.asp" target="_blank">here</a>. </div>
         </div>
         <div className="hr">
         </div>
