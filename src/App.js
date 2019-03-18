@@ -5,8 +5,11 @@ import CSS from './Image/CSS.jpg'
 import JavaScript from './Image/javascript.jpg'
 
 class App extends Component {
+  showAlert() {
+    alert("Im an alert");
+  }
   render() {
-    return (
+    return  (
 <div classname="whole-body">
       <div className="wrapper">
         <div className="main-text">Learn the web development essentials</div>
@@ -16,7 +19,7 @@ class App extends Component {
 
       <div className="main-body">
 
-      <p className="body-title">What is <b>HTML</b>?</p>
+      <p className="body-title">3 <b>beginner</b> languages.</p>
       
       <div className="imgs">
       <img className="body-img" src={Html} alt="html image"></img>
@@ -28,8 +31,9 @@ class App extends Component {
       with HTML, and changing the size of that text is done with another language called CSS, which I go into further in the next step. 
       W3Schools is the biggest educational platform online for all web technologies. 
       Click  <a href ="https://www.w3schools.com/html/html_intro.asp" target="_blank">here</a> for more information about HTML on W3School's website. </p> </div>
-       
+
       <div classname="imgs">
+      
             <img className="body-img" src={CSS} alt="css image"></img>
           </div>
           <div className="body-text" > <p><b>CSS</b> (<b>C</b>ascade <b>S</b>tyle <b>S</b>heets) is a style sheet langauge that allows languages
@@ -38,11 +42,13 @@ class App extends Component {
           <p className="example">'this text is defined and styled with CSS.'</p> For more information on CSS, W3Schools has a wide variety of information
           on their website. Click <a href ="https://www.w3schools.com/css/css_intro.asp" target="_blank">here</a> for more information about CSS on W3School's website. </p>
           </div>
-
+    
           <div className="imgs">
             <img className="body-img" src={JavaScript} alt="javascript image"></img>
           </div>
-          <div classname="body-text" >  </div>
+          <div classname="body-text" > <b>J</b>ava<b>S</b>cript is the third essential langauge to learn when studying web development. This is how
+          we are able to create functionality within a website. Without JavaScript, components like forms, special animations, and much more would not
+          function without JavaScript. Other items like buttons use JavaScript so they can function. For example,<button onClick={this.showAlert}>This</button> button </div>
         </div>
         <div className="hr">
         </div>

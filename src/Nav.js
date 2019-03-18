@@ -44,23 +44,7 @@ export default class Example extends React.Component {
 
                 <NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">LinkedIn</NavLink>
               </NavItem>
-              <UncontrolledDropdown>
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+              
             </Nav>
           </Collapse>
         </Navbar>
