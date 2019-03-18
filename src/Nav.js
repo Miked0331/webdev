@@ -38,13 +38,13 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="https://github.com/Miked0331" target="_blank" title="GitHub">GitHub</NavLink>
+                <NavLink href="https://github.com/Miked0331" target="_blank" title="GitHub" target="_blank">GitHub</NavLink>
               </NavItem>
               <NavItem>
 
-                <NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/">LinkedIn</NavLink>
+                <NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">LinkedIn</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+              <UncontrolledDropdown>
                 <DropdownToggle nav caret>
                   Options
                 </DropdownToggle>

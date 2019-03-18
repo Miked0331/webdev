@@ -52,6 +52,7 @@
     display: block;
     margin: 0 4px 0 4px;
     font-size: 1em;
+    padding-bottom: 10px;
   }
 }
 
@@ -88,9 +89,10 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
   .body-img {
     box-shadow: none;
+    padding-bottom: 10px;
   }
 }
 
@@ -103,6 +105,18 @@ img {
 .body-text {
   grid-column-start: 2fr;
   grid-column-end: 3fr;
+}
+
+@media screen and (max-width: 770px) {
+  .body-text {
+    padding-bottom: 2px;
+  }
+}
+
+.example {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+  font-stretch: expanded;
 }
   
 /*hr styles for top and bottom of page*/

@@ -13,7 +13,7 @@ class Footer extends Component {
                                     <img className="footer-icon" src={GitHub} alt="GitHub"></img></a>
                         </div>
 
-                        <div className="footer-div">Contact me @ mikedragun@gmail.com </div>
+                        <div className="footer-div">mikedragun@gmail.com </div>
 
                         <div className="footer-div">
                               <a href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank" title="LinkedIn">
