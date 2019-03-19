@@ -39,7 +39,7 @@ class App extends Component {
           <div className="body-text" > <p><b>CSS</b> (<b>C</b>ascade <b>S</b>tyle <b>S</b>heets) is a style sheet langauge that allows languages
           like HTML to be described and identified. CSS is allows us to change properties like color, size, animations, and much more when changing
           properties on images, text, and all other attributes on a website. For example, 'this text is plain html with no CSS definition'
-          <p className="example">'this text is defined and styled with CSS.'</p> For more information on CSS, W3Schools has a wide variety of information
+          <p className="example"><b>'this text is defined and styled with CSS.'</b></p> For more information on CSS, W3Schools has a wide variety of information
           on their website. Click <a href ="https://www.w3schools.com/css/css_intro.asp" target="_blank">here</a> for more information about CSS on W3School's website. </p>
           </div>
     

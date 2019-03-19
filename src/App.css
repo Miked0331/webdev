@@ -116,6 +116,7 @@ img {
 .example {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-variant: small-caps;
+  font-weight: bold;
 }
   
 /*hr styles for top and bottom of page*/
@@ -171,4 +172,12 @@ img {
 .button:hover {
   background-color: #555555;
   color: white;
+}
+
+@media only screen and (max-width: 770px) {
+button:hover {
+  
+  box-shadow:none;
+  
+  }
 }
