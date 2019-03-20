@@ -12,7 +12,7 @@ class App extends Component {
     return  (
 <div classname="whole-body">
       <div className="wrapper">
-        <div className="main-text">Learn the web development essentials</div>
+        <div className="main-text">Learn The Web Development Essentials</div>
         <div className="hr">  
         </div>
       </div>
