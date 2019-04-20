@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import './App.css';
 import Html from './Image/html.jpg'
@@ -12,7 +13,7 @@ class App extends Component {
     return (
       <div classname="whole-body">
         <div className="wrapper">
-          <div className="main-text">Learn the web development essentials</div>
+          <div className="main-text">Learn The Web Development Essentials</div>
           <div className="hr">
           </div>
         </div>
@@ -25,15 +26,12 @@ class App extends Component {
             <img className="body-img" src={Html} alt="html image"></img>
           </div>
 
-          <div classname="body-text" > <b>HTML</b> (<b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage) is the first langauge to know when learning how to create a website. It is the backbone and outline to all websites. When creating a website, HTML pages must be written first in order to create a website. For example, adding text to a website is done with HTML, and changing the size of that text is done with another language called CSS, which I go into further in the next step.
-      W3Schools is the biggest educational platform online for all web technologies. Click <a href="https://www.w3schools.com/html/html_intro.asp">here</a> for more information about HTML on W3School's website.  </div>
           <div classname="body-text" ><p> <b>HTML</b> (<b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage) is the first
           langauge to know when learning how to create a website. It is the backbone and outline to all websites. When creating
           a website, HTML pages must be written first in order to create a website. For example, adding text to a website is done
           with HTML, and changing the size of that text is done with another language called CSS, which I go into further in the next step.
           W3Schools is the biggest educational platform online for all web technologies.
       Click  <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">here</a> for more information about HTML on W3School's website. </p> </div>
-
           <div classname="imgs">
 
             <img className="body-img" src={CSS} alt="css image"></img>
@@ -59,6 +57,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
-

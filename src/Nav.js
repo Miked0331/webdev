@@ -44,7 +44,7 @@ export default class Example extends React.Component {
 
                 <NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">LinkedIn</NavLink>
               </NavItem>
-              
+
             </Nav>
           </Collapse>
         </Navbar>
