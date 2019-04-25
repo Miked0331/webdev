@@ -9,11 +9,8 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
 } from 'reactstrap';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -38,12 +35,19 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="https://github.com/Miked0331" target="_blank" title="GitHub" target="_blank">GitHub</NavLink>
+                <AnchorLink href='#html'><NavLink href="https://github.com/Miked0331" target="_blank" title="GitHub" target="_blank">HTML</NavLink></AnchorLink>
               </NavItem>
               <NavItem>
 
-                <NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">LinkedIn</NavLink>
+                <AnchorLink href='#CSS'><NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">CSS</NavLink></AnchorLink>
               </NavItem>
+
+              <NavItem>
+
+                <AnchorLink href='#JS'><NavLink id="scroll-link" href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">JavaScript</NavLink></AnchorLink>
+              </NavItem>
+
+
 
             </Nav>
           </Collapse>

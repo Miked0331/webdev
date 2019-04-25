@@ -4,6 +4,7 @@ import './App.css';
 import Html from './Image/html.jpg'
 import CSS from './Image/CSS.jpg'
 import JavaScript from './Image/javascript.jpg'
+import { VerticleButton as ScrollUpButton } from "react-scroll-up-button"
 
 class App extends Component {
   showAlert() {
@@ -22,7 +23,7 @@ class App extends Component {
 
           <p className="body-title">3 <b>beginner</b> languages.</p>
 
-          <div className="imgs">
+          <div id="html" className="imgs">
             <img className="body-img" src={Html} alt="html image"></img>
           </div>
 
@@ -32,8 +33,8 @@ class App extends Component {
           with HTML, and changing the size of that text is done with another language called CSS, which I go into further in the next step.
           W3Schools is the biggest educational platform online for all web technologies.
       Click  <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">here</a> for more information about HTML on W3School's website. </p> </div>
-          <div classname="imgs">
 
+          <div id="CSS" classname="imgs">
             <img className="body-img" src={CSS} alt="css image"></img>
           </div>
           <div className="body-text" > <p><b>CSS</b> (<b>C</b>ascade <b>S</b>tyle <b>S</b>heets) is a style sheet langauge that allows languages
@@ -43,7 +44,7 @@ class App extends Component {
           on their website. Click <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">here</a> for more information about CSS on W3School's website. </p>
           </div>
 
-          <div className="imgs">
+          <div id="JS" className="imgs">
             <img className="body-img" src={JavaScript} alt="javascript image"></img>
           </div>
           <div classname="body-text" > <b>J</b>ava<b>S</b>cript is the third essential langauge to learn when studying web development. This is how
@@ -51,8 +52,19 @@ class App extends Component {
           function without JavaScript. Other items like buttons use JavaScript so they can function. For example <button className="button" onClick={this.showAlert}>This</button> button
           displays an alert message on the page. For more information about JavaScript visit another section on W3School's website <a href="https://www.w3schools.com/js/js_intro.asp" target="_blank">here</a>. </div>
         </div>
+        {/*<div className="scroll-up">
+          <ScrollUpButton StopPosition={0}
+            ShowAtPosition={150}
+            EasingType='easeOutCubic'
+            AnimationDuration={500}
+            ContainerClassName='ScrollUpButton__Container'
+            TransitionClassName='ScrollUpButton__Toggled'
+            style={{}}
+            ToggledStyle={{}} />
+        </div> */}
         <div className="hr">
         </div>
+
       </div>
     );
   }
