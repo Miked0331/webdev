@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/webdev/static/media/html.6b581957.jpg"
   },
   {
-    "revision": "6d475c16f0b8f712efd3",
-    "url": "/webdev/static/css/main.eb9b52be.chunk.css"
+    "revision": "fd881bf31c70837b05d7",
+    "url": "/webdev/static/css/main.3fb5187c.chunk.css"
   },
   {
     "revision": "7849ddbe17a6cd08d59f",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/webdev/static/media/linkedin.a76ed0d6.png"
   },
   {
-    "revision": "d889ebb686c9c5f717a6",
-    "url": "/webdev/static/js/2.d889ebb6.chunk.js"
+    "revision": "ae4627ec7fc1ef53a9fd",
+    "url": "/webdev/static/js/2.ae4627ec.chunk.js"
   },
   {
-    "revision": "6d475c16f0b8f712efd3",
-    "url": "/webdev/static/js/main.6d475c16.chunk.js"
+    "revision": "fd881bf31c70837b05d7",
+    "url": "/webdev/static/js/main.fd881bf3.chunk.js"
   },
   {
     "revision": "bbe49f02ec4775ab6e7dc96ccc1e47a6",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/webdev/static/media/icon2.1dbffc78.png"
   },
   {
-    "revision": "d889ebb686c9c5f717a6",
-    "url": "/webdev/static/css/2.cfef79e3.chunk.css"
+    "revision": "ae4627ec7fc1ef53a9fd",
+    "url": "/webdev/static/css/2.1c249ddb.chunk.css"
   },
   {
-    "revision": "97ad82b72c35eeaa25b378d6f325785c",
+    "revision": "20752cccabd8526ed7fd1eb6a816458a",
     "url": "/webdev/index.html"
   }
 ];
