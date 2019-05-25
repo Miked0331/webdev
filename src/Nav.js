@@ -38,12 +38,10 @@ export default class Example extends React.Component {
                 <AnchorLink href='#html'><NavLink href="https://github.com/Miked0331" target="_blank" title="GitHub" target="_blank">HTML</NavLink></AnchorLink>
               </NavItem>
               <NavItem>
-
                 <AnchorLink href='#CSS'><NavLink href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">CSS</NavLink></AnchorLink>
               </NavItem>
 
               <NavItem>
-
                 <AnchorLink href='#JS'><NavLink id="scroll-link" href="https://www.linkedin.com/in/michael-dragun-42b925137/" target="_blank">JavaScript</NavLink></AnchorLink>
               </NavItem>
 
